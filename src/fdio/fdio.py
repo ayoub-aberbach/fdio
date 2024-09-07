@@ -2,11 +2,11 @@ from pathlib import Path
 import click
 import sys
 
-from src.fdio.utils import delete_folder
+from fdio.utils import delete_folder
 
 
 @click.group()
-@click.version_option("1.0.1")
+@click.version_option("1.01")
 def cli():
     """
     File Manager CLI Tool.

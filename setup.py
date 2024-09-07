@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="fdio",
-    version="0.1.1",
+    version="1.01",
     description="A CLI tool that manages files and directories.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
@@ -18,7 +18,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "executable-name = fdio.fdio:cli",
+            "fdio = fdio.fdio:cli",
         ],
     },
     url="https://github.com/ayoub-aberbach/fdio",
