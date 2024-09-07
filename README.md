@@ -13,7 +13,6 @@ Provides commands to:
 - Purge files and directories.
 - Display file contents.
 
-
 ## Commands:
 
 - List files and directories.
