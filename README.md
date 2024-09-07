@@ -25,12 +25,7 @@ paths (tuple of Path): Paths to list. If no paths are provided, lists the conten
 
 Examples:
 
-1- Current path:
-        
     flio lfd
-    
-2- Add path(s):
-        
     flio lfd /path/to/directory-1 /path/to/directory-2 ...
 
 
