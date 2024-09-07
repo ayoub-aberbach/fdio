@@ -26,6 +26,7 @@ paths (tuple of Path): Paths to list. If no paths are provided, lists the conten
 Examples:
 
     flio lfd
+
     flio lfd /path/to/directory-1 /path/to/directory-2 ...
 
 
