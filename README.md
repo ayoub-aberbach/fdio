@@ -25,7 +25,12 @@ paths (tuple of Path): Paths to list. If no paths are provided, lists the conten
 
 Examples:
 
+1- Current path:
+        
     flio lfd
+    
+2- Add path(s):
+        
     flio lfd /path/to/directory-1 /path/to/directory-2 ...
 
 
@@ -51,7 +56,12 @@ path (Path, optional): Custom path where the files will be created. If not provi
 
 Examples:
 
+1- Current directory:
+
     flio crf file1.txt file2.txt ...
+
+2- Add a directory path:
+
     flio crf -p /path/to/directory file1.txt file2.txt ...
 
 
